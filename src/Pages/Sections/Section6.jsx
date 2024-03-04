@@ -3,11 +3,11 @@ import image from "./image/div6.png";
 import { FaLongArrowAltRight } from "react-icons/fa";
 const Section6 = () => {
   return (
-    <div className="w-[1140px] ml-16 mt-32">
+    <div className="w-[96%] mx-auto px-2 md:w-[1140px] md:ml-16 mt-32">
       <h1 style={{ fontSize: "48px" }} className="font-bold">
         Built for the way you work
       </h1>
-      <div className="flex justify-between mt-10">
+      <div className="grid grid-cols-3 gap-2 md:flex md:justify-between mt-10">
         <p className="bg-gray-200 border-gray-100 font-semibold w-fit border-2 shadow-xs p-2 rounded-3xl">
           Brainstorming
         </p>
@@ -30,8 +30,8 @@ const Section6 = () => {
           Strategic Planning
         </p>
       </div>
-      <div className="flex mt-10 ">
-        <div className="mr-10 w-1/5">
+      <div className="md:flex mt-10 ">
+        <div className="md:mr-10 md:w-1/5">
           <h5 className="font-semibold mt-16">Brainstorming</h5>
           <p className="text-gray-500 mt-10">
             Unleash creative ideas and build on them with the help of sticky
@@ -42,7 +42,7 @@ const Section6 = () => {
             Learn more <FaLongArrowAltRight></FaLongArrowAltRight>
           </p>
         </div>
-        <div className="w-4/5">
+        <div className="md:w-4/5">
           <img style={{ width: "100%" }} src={image} alt="" />
         </div>
       </div>

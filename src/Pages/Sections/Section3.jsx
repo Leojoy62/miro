@@ -3,9 +3,9 @@ import image from "./image/hybridwork.png.png";
 
 const Section3 = () => {
   return (
-    <div className="w-[1140px] flex flex-col justify-center items-center  mx-auto">
-      <div className="flex flex-row justify-between items-center  mt-10">
-        <div style={{ width: "550px", height: "264px" }} className="mr-10">
+    <div className="w-full mx-auto md:w-[1140px]  flex-col justify-center items-center  mx-auto">
+      <div className="w-[96%] mx-auto px-2 md:flex md:w-full flex-row justify-between items-center  mt-10">
+        <div className="md:w-[550px] md:h-[264px] mr-10">
           <h1 style={{ fontSize: "48px" }} className="font-bold">
             Work together, wherever you work
           </h1>

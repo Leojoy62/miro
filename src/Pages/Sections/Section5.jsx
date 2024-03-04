@@ -3,7 +3,7 @@ import "./Section5.css";
 import { FaLongArrowAltRight } from "react-icons/fa";
 const Section5 = () => {
   return (
-    <div className="container flex flex-col justify-center items-center  mx-auto mt-12">
+    <div className="w-[96%] mx-auto md:w-[1140px] container flex flex-col justify-center items-center  mx-auto mt-12">
       <div className="texts flex flex-col items-center justify-center text-center">
         <h2 className="text-2xl font-bold">The ways we work</h2>
         <p className="font-semibold">

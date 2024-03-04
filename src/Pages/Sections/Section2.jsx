@@ -4,17 +4,19 @@ import image from "./image/Group.png";
 import "./Section2.css";
 const Section2 = () => {
   return (
-    <div className="w-[1140px] mt-16 flex flex-col justify-center items-center  mx-auto main">
-      <img src={image} alt="" className="sec2" />
-      <div className="flex flex-col items-center">
-        <h1 style={{ fontSize: "48px" }} className="font-bold">
+    <div className="w-[96%] mx-auto md:w-[1140px] mt-16 flex flex-col justify-center items-center  mx-auto main">
+      <div className="hidden sm:block">
+        <img src={image} alt="" className="hidden md:block sec2 " />
+      </div>
+      <div className="flex-col items-center md:flex">
+        <h1 style={{ fontSize: "48px" }} className="font-bold ">
           Collaborate without
         </h1>
-        <h1 style={{ fontSize: "48px" }} className="font-bold">
+        <h1 style={{ fontSize: "48px" }} className=" font-bold">
           constraints
         </h1>
       </div>
-      <div className="flex flex-row justify-center mt-6">
+      <div className=" md:flex flex-row justify-center mt-6 xs:flex-col items-center">
         <div style={{ width: "360px" }}>
           <h3 className="font-bold text-xl mb-4">Free forever</h3>
           <p className="text-gray-400">
@@ -25,7 +27,7 @@ const Section2 = () => {
             features.
           </p>
         </div>
-        <div style={{ width: "360px" }} className="mx-12">
+        <div style={{ width: "360px" }} className="md:mx-12">
           <h3 className="font-bold text-xl mb-4">Easy integrations</h3>
           <p className="text-gray-400">
             Miro has 100+ powerful integrations with tools you already use like

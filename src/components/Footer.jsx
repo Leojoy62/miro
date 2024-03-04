@@ -8,11 +8,11 @@ const Footer = () => {
   return (
     <div>
       <div
-        style={{ backgroundColor: "#02033B", height: "680px" }}
-        className="mt-16 w-full flex flex-col justify-center  items-center"
+        style={{ backgroundColor: "#02033B" }}
+        className="mt-16 w-full  md:h-[680px] flex flex-col justify-center  items-center"
       >
-        <div className="w-[1140px] h-[500px]">
-          <div className="flex justify-between gap-10">
+        <div className="w-[90%] h-auto md:w-[1140px] md:h-[500px]">
+          <div className="mt-5 md:mt-0 md:flex md:justify-between gap-10">
             <div>
               <h2 style={{ fontSize: "23px" }} className="text-white font-bold">
                 Scan.Detect.Remove
@@ -124,8 +124,8 @@ const Footer = () => {
                 </h3>
               </div>
             </div>
-            <div className="bg">
-              <div className="bg-yellow p-8 ">
+            <div className="bg mt-5 md:mt-0 md:w-[436px] md:h-[233px]">
+              <div className="bg-yellow md:w-[436px] md:h-[233px] p-8 ">
                 <h2 style={{ fontSize: "23px" }} className="font-bold">
                   Sign up to our newsletter
                 </h2>
@@ -146,7 +146,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="mt-16 text-white w-[570px]">
+          <div className="w-[100%] mt-5 md:mt-16 text-white md:w-[570px]">
             <p>
               Apple, the Apple logo, and iPhone are trademarks of Apple Inc.,
               registered in the U.S. and other countries. App Store is a service

@@ -1,0 +1,10 @@
+.main {
+  position: relative;
+  display: block;
+}
+.sec2 {
+  display: block;
+  position: absolute;
+  right: 280px;
+  top: -65px;
+}

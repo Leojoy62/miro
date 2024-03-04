@@ -1,0 +1,26 @@
+/* .bg {
+  background-image: url("../Pages/Sections/image/footerlogo.png");
+  background-size: cover;
+  height: 233px;
+  width: 100px;
+} */
+.bg {
+  background-image: url("../Pages/Sections/image/footerlogo.png");
+  background-size: cover;
+  background-position: center;
+  width: 436px; /* Adjust this according to your layout */
+  height: 233px; /* Adjust this according to your layout */
+}
+
+.bg-yellow {
+  background-color: rgba(
+    255,
+    194,
+    71,
+    0.92
+  ); /* Adjust the last value (alpha) to set the opacity */
+  width: 436px;
+  height: 233px;
+  border-radius: 42px;
+  padding: 35px, 36px, 36px, 36px;
+}

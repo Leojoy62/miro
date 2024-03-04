@@ -1,0 +1,14 @@
+.container {
+  background-image: url("./image/section.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 89%;
+  height: 500px;
+}
+
+.texts {
+  position: absolute;
+  right: 35px;
+  top: 40%;
+}

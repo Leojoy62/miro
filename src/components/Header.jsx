@@ -154,7 +154,7 @@ const Header = () => {
         </div>
 
         <div className="navbar-end hidden lg:flex">
-          <ul className="flex gap-2 justify-center items-center">
+          <ul className="menu menu-horizontal flex  justify-center items-center">
             <li>
               <img src={web} alt="" />
             </li>
@@ -171,14 +171,21 @@ const Header = () => {
               <a>Login</a>
             </li>
 
-            <li
+            {/* <li
               style={{ backgroundColor: "#4262FF" }}
               className="flex items-center  py-2 px-3 rounded-3xl text-white font-semibold text-lg gap-2"
             >
               <button> Sign up free </button>
               <FaLongArrowAltRight />
-            </li>
+            </li> */}
           </ul>
+          <li
+            style={{ backgroundColor: "#4262FF" }}
+            className="flex items-center  py-2 px-3 rounded-3xl text-white font-semibold text-lg gap-2"
+          >
+            <button> Sign up free </button>
+            <FaLongArrowAltRight />
+          </li>
         </div>
       </div>
     </div>

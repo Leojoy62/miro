@@ -3,18 +3,12 @@ import image from "./image/M3_integrations_all_integrations.png.png";
 
 const Section4 = () => {
   return (
-    <div className="md:w-[1140px] flex flex-col justify-center items-center  mx-auto">
-      <div className="w-[100%] mx-auto  px-3 md:flex flex-row justify-between items-center  mt-10 mr-12">
-        <div>
-          <img
-            style={{
-              width: "550px",
-            }}
-            src={image}
-            alt=""
-          />
+    <div className="w-[96%] lg:w-[1140px] flex flex-col justify-center items-center  mx-auto">
+      <div className="w-full mx-auto  px-3 md:flex flex-row justify-between items-center  mt-10 mr-12">
+        <div className="sm:flex flex-col sm:items-center md:w-1/2">
+          <img className="w-full max-w-[550px]" src={image} alt="" />
         </div>
-        <div className="md:w-[550px] md:h-[264px] md:ml-12">
+        <div className="lg:w-[550px] lg:h-[264px] md:ml-12">
           <h1 style={{ fontSize: "48px" }} className="font-bold">
             Connect your tools, close your tabs
           </h1>

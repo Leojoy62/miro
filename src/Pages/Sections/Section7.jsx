@@ -5,7 +5,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import { TiTick } from "react-icons/ti";
 const Section7 = () => {
   return (
-    <div className="w-[96%] mx-auto px-2 md:w-[1140px] md:ml-16 mt-32">
+    <div className="w-[96%] mx-auto px-2 lg:w-[1140px] md:ml-16 mt-32 ">
       <h1 style={{ fontSize: "48px" }} className="font-bold">
         Built for all kinds of teams
       </h1>
@@ -32,7 +32,7 @@ const Section7 = () => {
           Sales
         </p>
       </div>
-      <div className="md:flex mt-10 ">
+      <div className="md:flex mt-10 sm:flex-col sm:items-center md:flex-row ">
         <div className="md:mr-10 md:mt-10 md:w-1/5">
           <p className="text-gray-500 mt-2 flex gap-2 items-center">
             <TiTick className="text-2xl mr-2" /> Build low-fi wireframes

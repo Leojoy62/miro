@@ -9,9 +9,9 @@ const Footer = () => {
     <div>
       <div
         style={{ backgroundColor: "#02033B" }}
-        className="mt-16 w-full  md:h-[680px] flex flex-col justify-center  items-center"
+        className="mt-16 w-full  lg:h-[680px] flex flex-col justify-center  items-center"
       >
-        <div className="w-[90%] h-auto md:w-[1140px] md:h-[500px]">
+        <div className="w-[90%] h-auto lg:w-[1140px] lg:h-[500px]">
           <div className="mt-5 md:mt-0 md:flex md:justify-between gap-10">
             <div>
               <h2 style={{ fontSize: "23px" }} className="text-white font-bold">

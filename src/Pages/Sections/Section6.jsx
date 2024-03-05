@@ -3,7 +3,7 @@ import image from "./image/div6.png";
 import { FaLongArrowAltRight } from "react-icons/fa";
 const Section6 = () => {
   return (
-    <div className="w-[96%] mx-auto px-2 md:w-[1140px] md:ml-16 mt-32">
+    <div className="w-[96%] mx-auto px-2 lg:w-[1140px] md:ml-16 mt-32 ">
       <h1 style={{ fontSize: "48px" }} className="font-bold">
         Built for the way you work
       </h1>

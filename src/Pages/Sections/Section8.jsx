@@ -10,7 +10,7 @@ import testimonial3 from "./image/third.png";
 const Section8 = () => {
   return (
     <>
-      <div className="w-[96%] mx-auto px-2 md:w-[1140px] mt-16 flex flex-col justify-center items-center  mx-auto">
+      <div className="w-[96%] mx-auto px-2 lg:w-[1140px] mt-16 flex flex-col justify-center items-center  mx-auto">
         <div className="flex flex-col items-center">
           <h1 style={{ fontSize: "48px" }} className="font-bold">
             Loved by the world's best teams
@@ -24,7 +24,7 @@ const Section8 = () => {
           </div>
         </div>
         <div className="w-[100%] mx-auto md:flex flex-row justify-center mt-16">
-          <div className="md:w-[360px]">
+          <div className="lg:w-[360px]">
             <img src={vmware} alt="" />
             <p style={{ height: "200px" }} className="text-gray-400 mt-10">
               “When the pandemic hit, those of us who thrive on in-person
@@ -40,7 +40,7 @@ const Section8 = () => {
               </div>
             </div>
           </div>
-          <div className="mt-10 md:mt-0 md:w-[360px]  md:mx-12">
+          <div className="mt-10 md:mt-0 lg:w-[360px]  md:mx-12">
             <img src={docu} alt="" />
             <p style={{ height: "200px" }} className="text-gray-400 mt-10">
               “Miro helps solve one of the major gaps in product design: how to
